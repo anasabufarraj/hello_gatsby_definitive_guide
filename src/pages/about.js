@@ -4,19 +4,17 @@
 import React from 'react'
 import Footer from './components/footer'
 import { Link } from 'gatsby'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import '/static/styles/index.css'
 
-function Home() {
+function About() {
   return (
     <div>
-      <h1>Hello World!</h1>
+      <h1>About</h1>
       <p>
-        <Link to="/about">About</Link>
+        <Link to="/">Home</Link>
       </p>
       <Footer copyrightYear="2022" />
     </div>
   )
 }
 
-export default Home
+export default About

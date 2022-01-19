@@ -1,11 +1,15 @@
 //------------------------------------------------------------------------------
 // Copyright 2022. Anas Abu Farraj.
 //------------------------------------------------------------------------------
-module.exports = {
-  siteMetadata: {
-    title: 'Gatsby Site',
-    description: 'Reading Gatsby The Definitive Guide.',
-    author: 'Anas Abu Farraj',
-  },
-  plugins: [],
+import React from 'react'
+
+function NotFound() {
+  return (
+    <div>
+      <h1>404</h1>
+      <p>Oops!</p>
+    </div>
+  )
 }
+
+export default NotFound
