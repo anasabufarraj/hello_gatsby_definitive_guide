@@ -2,14 +2,13 @@
 // Copyright 2022. Anas Abu Farraj.
 //------------------------------------------------------------------------------
 import React from 'react'
+import Layout from './components/layout'
 
-function NotFound() {
+export default function NotFound() {
   return (
-    <div>
+    <Layout>
       <h1>404</h1>
       <p>Oops!</p>
-    </div>
+    </Layout>
   )
 }
-
-export default NotFound

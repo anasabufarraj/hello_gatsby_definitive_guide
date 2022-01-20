@@ -2,21 +2,18 @@
 // Copyright 2022. Anas Abu Farraj.
 //------------------------------------------------------------------------------
 import React from 'react'
-import Footer from './components/footer'
 import { Link } from 'gatsby'
+import Layout from './components/layout'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '/static/styles/index.css'
 
-function Home() {
+export default function Home() {
   return (
-    <div>
+    <Layout>
       <h1>Hello World!</h1>
       <p>
         <Link to="/about">About</Link>
       </p>
-      <Footer copyrightYear="2022" />
-    </div>
+    </Layout>
   )
 }
-
-export default Home

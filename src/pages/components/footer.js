@@ -1,7 +1,5 @@
 import React from 'react'
 
-function Footer(props) {
+export default function Footer(props) {
   return <small>® Copyright {props.copyrightYear}. All rights are reserved.</small>
 }
-
-export default Footer
