@@ -10,7 +10,7 @@ export default function About() {
     <Layout>
       <h1>About</h1>
       <p>
-        <Link className="btn btn-primary" to="/">
+        <Link className="btn btn-warning" to="/">
           Home
         </Link>
       </p>
