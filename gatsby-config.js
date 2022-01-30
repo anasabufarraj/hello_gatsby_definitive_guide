@@ -7,5 +7,5 @@ module.exports = {
     description: 'Reading Gatsby The Definitive Guide.',
     author: 'Anas Abu Farraj',
   },
-  plugins: [],
+  plugins: [`gatsby-plugin-emotion`],
 }

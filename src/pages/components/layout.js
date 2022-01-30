@@ -7,9 +7,8 @@ import Footer from './footer'
 export default function Layout({ children }) {
   return (
     <div>
-      <p>Header</p>
       {children}
-      <Footer />
+      <Footer copyrightYear="2022" />
     </div>
   )
 }
