@@ -9,11 +9,9 @@ export default function About() {
   return (
     <Layout>
       <h1>About</h1>
-      <p>
-        <Link className="btn btn-warning" to="/">
-          Home
-        </Link>
-      </p>
+      <Link className="btn btn-dark" to="/">
+        Home
+      </Link>
     </Layout>
   )
 }
